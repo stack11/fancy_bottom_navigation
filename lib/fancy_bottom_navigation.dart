@@ -284,7 +284,6 @@ class FancyBottomNavigationState extends State<FancyBottomNavigation>
   }
 
   void setPageOffset(double page) {
-    print("$page");
     _setSelected(widget.tabs[page.round()].key);
     _initAnimationAndStart(1);
 
